@@ -13,9 +13,6 @@ class HomeController extends Controller
 
     public function index()
     {
-//        $user = User::with('links')->find(1);
-//        dd($user);
-
 
         return view('home');
     }
