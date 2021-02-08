@@ -2,7 +2,7 @@
   
 Работающее приложение доступно по адресу: http://bogdanovtest.site/ 
   
-installation:
+Установка:
   
 Laravel 8 
   
