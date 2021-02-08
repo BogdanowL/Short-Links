@@ -28,7 +28,7 @@ class ShortLinkController extends Controller
         Links::create([
             'user_id' => $request->user_id,
             'old_link' => $request->link,
-            'new_link' => config('app.name') . '/go/' . Str::random(8)
+            'new_link' => $request->root() . '/go/' . Str::random(8)
         ]);
 
     }
