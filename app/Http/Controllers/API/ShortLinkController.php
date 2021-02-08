@@ -44,7 +44,7 @@ class ShortLinkController extends Controller
     {
         $request->validate([
             'oldLink' => 'required|url',
-            'newLink' => 'required|url'
+            'newLink' => 'required'
         ],[
             'oldLink.required' => 'Укажите ссылку которую хотите сократить',
             'oldLink.url' => 'Ссылка должны быть в формате URL',
